@@ -1,0 +1,36 @@
+#main-content, .playground{
+  padding: 8% 15% 5% 15%;
+  text-align: center;
+  background-color: #002B5B;
+  color: #8FE3CF;
+  font-family: 'Mali', cursive;
+}
+#main-content{
+  padding-bottom: 10;
+}
+.title-heading, .result{
+  text-transform: capitalize;
+  padding-top: 2rem;
+}
+
+.image1, .image2{
+  width: 60%;
+}
+
+.roll-block{
+  padding-top: 2rem;
+}
+.footer{
+  text-align: center;
+  padding: 2% 0 1% 0;
+  background-color: #8D8DAA;
+}
+
+@media (max-width:600px){
+  #main-content{
+    padding: 6% 0 3% 0;
+  }
+  .image1, .image2{
+    width: 25%;
+  }
+}
