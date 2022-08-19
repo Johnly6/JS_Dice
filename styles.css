@@ -33,4 +33,8 @@
   .image1, .image2{
     width: 25%;
   }
+  .footer{
+    padding-top:20%;
+    padding-bottom:20%;
+  }
 }
